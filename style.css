@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h2 {
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+h3 {
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+.photo {
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 1200px;
+  /* width: 100%; */
+  margin: 0 auto;
+  border-bottom: solid 10px lightblue;
+  border-top: solid 10px lightblue;
+  background-color: lightcyan;
+}
+.skills {
+  width: 1030px;
+  /* width: 100%; */
+  margin: 0 auto;
+  display: block;
+  background-color: lightgreen;
+  margin-bottom: 50px;
+}
+
+.html,
+.css,
+.javascript,
+.react,
+.mongodb,
+.bootstrap {
+  height: 100px;
+  width: auto;
+  margin: 0 40px;
+}
+.mongodb {
+  height: 100px;
+  width: 100px;
+}
+
+/* .skills:first-child {
+  margin-left: 0px;
+}
+.skills:last-child {
+  margin-right: 0px;
+} */
+.html {
+  margin-left: 0px;
+}
+.mongodb {
+  margin-right: 0px;
+}
+
+.location {
+  margin-bottom: 70px;
+}
+.facebook,
+.instagram,
+.linkedin,
+.github,
+.youtube,
+.stackoverflow {
+  height: 50px;
+  width: auto;
+  margin: 0 5px;
+}
+
+/* positioning the socials in the footer */
+
+footer {
+  /* background-color: lightblue; */
+  position: relative;
+}
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.socials {
+  float: right;
+}
+.copyright {
+  position: absolute;
+  top: 35px;
+}
+
+/* positioning the contacts in the header */
+header {
+  position: relative;
+}
+.contact {
+  position: absolute;
+  top: 150px;
+  right: 70px;
+  border-top: solid lightblue;
+  border-bottom: solid lightblue;
+  padding: 15px 0;
+}
